@@ -1,0 +1,65 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  background-color: hotpink;
+}
+
+header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: grey;
+}
+
+footer {
+  font-family: verdana;
+  font-size: 9px;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/* navigation */
+nav{
+width: 100%;
+display: flex;
+background-color: #bac5c7;
+}
+nav a{
+min-width: fit-content;
+padding: 10px 15px;
+border: 1px inset grey;
+text-decoration: none;
+color: black;
+display: block;
+font-size: 16pt;
+}
+nav a:hover{
+background-color: steelblue;
+color: white;
+}
+/* ontent */
+.banner{
+width: 100%;
+height: 400px;
+overflow: hidden;
+}
+
+
+/* footer */
+footer{
+background-color: steelblue;
+display: flex;
+padding: 2%;
+}
+
+.copyright{
+padding: 15px;
+margin: 0;
+text-align: center;
+}
+  
+
+  

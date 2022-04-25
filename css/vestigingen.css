@@ -1,0 +1,45 @@
+/* --imperial-red: #e63946ff; 
+--honeydew: #f1faeeff; 
+--powder-blue: #a8dadcff; 
+--celadon-blue: #457b9dff; 
+--prussian-blue: #1d3557ff; */
+
+
+h5 {
+    background:#e63946ff;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    background:#457b9dff;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    background:#1d3557ff;
+}
+.box {
+    background:#e63946ff;
+}
+.Vestigingen {
+    background: #f1faeeff;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.nav-item {
+    background:#f1faeeff;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.footer {
+    background:#e63946ff; 
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}

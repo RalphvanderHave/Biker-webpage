@@ -1,0 +1,116 @@
+/* ---CSS PALETTE WIP--- */
+    /* 
+    CSS HEX
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff; 
+    */
+
+/* Box Model Fix */
+/* html {
+    box-sizing: border-box;
+}
+ *, *:before, *:after {
+     box-sizing: inherit;
+ }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} */
+
+
+/* ##Type Selector Declarations## */
+/* navigation */
+nav{
+    width: 100%;
+    display: flex;
+    background-color: #bac5c7;
+}
+nav a{
+    min-width: fit-content;
+    padding: 10px 15px;
+    border: 1px inset grey;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 16pt;
+}
+nav a:hover{
+    background-color: steelblue;
+    color: white;
+}
+header {
+    height: 300px;
+    overflow: hidden
+}
+main {
+    background-color: lightblue;
+}
+article {
+    width: 33%;
+    border: 1px solid black;
+    display: inline-block;
+}
+section {
+    border: 1px solid black;
+    width: 30%;
+    display: inline-block;
+}
+aside {
+    border: 1px solid black;
+    width: 30%;
+}
+footer {
+    background-color: lightgoldenrodyellow;
+}
+
+/* ##Class Selector Declarations## */
+/* content */
+.logo {
+    position: absolute;
+    background-color: rgba(58, 58, 58, 0.521);
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.banner h1{
+    color: white;
+    font-family: Roboto;
+    font-size: 32pt;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.button{
+     background-color: steelblue;
+     padding: 10px 20px;
+     color: white;
+     text-decoration: none;
+ }
+ 
+/* footer */
+.footer-top{
+    display: flex;
+    padding: 2%;
+}
+
+.footer-row{
+    width:24%;
+}
+
+.footer-brands{
+
+}
+
+.footer-bottom{
+    text-align: center;
+}
